@@ -17,7 +17,7 @@ body{font:15px/24px Arial,"microsoft yahei";color:#333;}
 .softdown_cont .soft_down_btn{ background: #1a9cf8; border-bottom: 1px solid #333; border-radius: 5px; display: block; margin: 0px auto; width: 150px; height: 38px; line-height: 38px; font-size: 18px; color: #fff; text-decoration:none; }
 
 
-.tagbox h6{ height: 22px; line-height: 22px; font-size: 16px; /*font-weight: normal;*/ }
+.tagbox h6{ /*height: 22px;*/ line-height: 22px; font-size: 16px; /*font-weight: normal;*/ }
 .tagbox p{ color: #777; font-size: 14px; }
 
 .tags_yunying{ background:#fffaed; border:1px solid #e8d09d; }
