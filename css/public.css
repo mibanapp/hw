@@ -108,7 +108,7 @@ body{font:15px/24px Arial,"microsoft yahei";color:#333;}
 	.n_note_cont{ padding: 4px 0px 0px 0px; background: url(../img/zhouxian_left.png) repeat-y 0px 0px; background-size: 20px 20px; overflow: hidden; }
 	/*.n_note_cont .rq_title{ font-weight: bold; height: 30px; line-height: 30px; font-size: 18px; background: url(../img/zhouxian_jiedian.png) no-repeat 0px center; background-size: 20px 20px; padding: 0px 0px 0px 38px; margin: 5px 0px -10px 0px; }*/
 	.n_note_cont .rq_title{ font-weight: bold; height: 36px; line-height: 36px; font-size: 20px; padding: 0px 0px 0px 0px; margin: 5px 0px -10px 0px; color: #b1b1b1; }
-	.n_note_cont .rq_title i{ margin: 0px 6px 0px -2px; }
+	.n_note_cont .rq_title i{ margin: 0px 6px 0px -2px; background: #fff; }
 	.tags_cont{ padding: 4px 0px; }
 
 	.tagbox{ margin: 0px 5px 20px 40px; }
@@ -172,7 +172,7 @@ body{font:15px/24px Arial,"microsoft yahei";color:#333;}
 	.n_note_cont{ padding: 4px 0px 0px 0px; background: url(../img/zhouxian_left.png) repeat-y 0px 0px; background-size: 20px 20px; overflow: hidden; }
 	/*.n_note_cont .rq_title{ font-weight: bold; height: 30px; line-height: 30px; font-size: 18px; background: url(../img/zhouxian_jiedian.png) no-repeat 0px center; background-size: 20px 20px; padding: 0px 0px 0px 23px; margin: 5px 0px -10px 0px; }*/
 	.n_note_cont .rq_title{ font-weight: bold; height: 36px; line-height: 36px; font-size: 19px; padding: 0px 0px 0px 0px; margin: 5px 0px -10px 0px; color: #b1b1b1; }
-	.n_note_cont .rq_title i{ margin: 0px 5px 0px -1px; }
+	.n_note_cont .rq_title i{ margin: 0px 5px 0px -1px; background: #fff; }
 	.tags_cont{ padding: 4px 0px; }
 
 	.tagbox{ margin: 0px 0px 20px 23px; }
