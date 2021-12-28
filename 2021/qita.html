@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>2021年 · 其他 · 更新记录</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="../css/public.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>(function(){var a=document.documentElement.clientWidth||document.body.clientWidth;if(a>460){a=460}else{if(a<320){a=320}}document.documentElement.style.fontSize=(a/26.5)*1+"px"})();</script>
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.lazyload-1.9.1.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.qrcode-1.0.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+      $("img.dplazy").lazyload({
+      	placeholder : "https://cdn.jsdelivr.net/gh/mibanapp/static/img/lazygray.png",
+      	effect: "fadeIn",
+      	threshold: 1500
+      });
+  });
+</script>
+</head>
+
+<body>
+
+<!-- 顶部导航 开始 -->
+<div class="hy_top_nav">
+  <ul>
+    <li><a href="all.html"><span>全部</span></a></li>
+    <li><a href="qianduan.html"><span>前端</span></a></li>
+    <li><a href="fuwuduan.html"><span>服务端</span></a></li>
+    <li><a href="yunying.html"><span>运营</span></a></li>
+    <li><a href="huodong.html"><span>活动</span></a></li>
+    <li><a href="toufang.html"><span>投放</span></a></li>
+    <li><a href="shigu.html"><span>事故</span></a></li>
+    <li class="cur"><a href="qita.html"><span>其他</span></a></li>
+  </ul>
+  <h1 class="pingtai_name"><a href="/">2021年 · 其他 · 更新记录</a></h1>
+</div>
+<!-- 顶部导航 结束 -->
+
+
+<div class="all_body">
+
+  <div class="n_note_cont">
+
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2021.12.27（周一）</div>
+    <div class="tagbox">
+      <!-- 其他 开始 -->
+      <div class="tags_qita">
+        <div class="tags_cont">          
+          <h6># 支付预警-警报</h6>
+          <p>● 支付预警警报响起</p>
+          <p>&nbsp;&nbsp;○ 23:45异常，23:55分电话报警，判断加切换耗时7分钟</p>
+        </div>
+      </div>
+      <!-- 其他 结束 -->  
+    </div>
+
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2021.12.15（周三）</div>
+    <div class="tagbox">
+      <!-- 其他 开始 -->
+      <div class="tags_qita">
+        <div class="tags_cont">          
+          <h6># 支付预警</h6>
+          <p>● 新增支付预警系统，根据支付订单异常数量，进行预警</p>
+          <p>&nbsp;&nbsp;○ 预警方式：企业微信、电话通知</p>
+          <p>&nbsp;&nbsp;○ 上线时间：2021-12-15</p>
+        </div>
+      </div>
+      <!-- 其他 结束 -->  
+      <!-- 其他 开始 -->
+      <div class="tags_qita">
+        <div class="tags_cont">          
+          <h6># 邀请人后台</h6>
+          <p>● 邀请人后台优化上线时间，等级，数据实时等展示</p>
+          <p>&nbsp;&nbsp;○ 上线时间：17:30</p>
+        </div>
+      </div>
+      <!-- 其他 结束 -->  
+    </div>
+
+  </div>
+
+
+  <!-- 二维码 -->
+  <div class="bcqr_wrap">
+		<div class="bcqr_position_box">
+			<div class="bcqr_box">
+				<div id="qrcode"></div>
+				<script>jQuery('#qrcode').qrcode({render: "canvas", width: 120, height: 120, foreground: "#000", background: "#fff", text: "https://time.miban.ml/2021/qita.html"});</script>
+				<div class="bcqr_text">
+					扫一扫<br>可用手机查看
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
