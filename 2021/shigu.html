@@ -56,7 +56,6 @@
           <h6># 微信支付方式异常（报警异常）</h6>
           <p>● 支付报警系统BUG导致微信支付商户号没有及时切换，导致用户充值失败；</p>
           <p>&nbsp;&nbsp;○ 影响范围：全部产品（使用微信支付的充值订单）</p>
-          <p>&nbsp;&nbsp;○ 事故级别：高</p>
           <p>&nbsp;&nbsp;○ 影响时间：21:53:38 ~ 22:21:07（共计27分钟）</p>
           <p>&nbsp;&nbsp;○ 影响人数：223人</p>
           <p>&nbsp;&nbsp;○ 补偿方案：对受影响的用户每人补偿50钻石（共计11150钻石）</p>
@@ -73,6 +72,20 @@
         </div>
       </div>
       <!-- 事故 结束 -->
+    </div>
+
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2021.12.28（周二）</div>
+    <div class="tagbox">
+      <!-- 投放 开始 -->
+      <div class="tags_shigu">
+        <div class="tags_cont">
+          <ins class="sgtag_yiban"><span>事故级别</span></ins>
+          <h6># 投放回传数据异常</h6>
+          <p>● 投放的回传数据bug异常，没有回传数据，影响到投放的节奏</p>
+          <p>&nbsp;&nbsp;○ 影响时间：19:00 - 29号08:30</p>
+        </div>
+      </div>
+      <!-- 投放 结束 -->
     </div>
 
     <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2021.12.15（周三）</div>
@@ -114,7 +127,13 @@
           <ins class="sgtag_zhongda"><span>事故级别</span></ins>
           <h6># https域名证书过期</h6>
           <p>● api接口域名 https 证书过期，导致用户无法正常登录；</p>
-          <p>&nbsp;&nbsp;○ 影响时间范围：早8点 ~ 早9点左右；</p>
+          <p>&nbsp;&nbsp;○ 影响时间：早8点 ~ 早9点左右；</p>
+          <p><strong>● 优化方案</strong></p>
+          <p>&nbsp;&nbsp;1、问题修复：过期证书修复</p>
+          <p>&nbsp;&nbsp;2、改进措施：</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;1.将目前使所有用的域名都整理出来，提交运维，加强重点业务监控</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;2.域名后台风控除了运维添加多个提醒人，加强相互提醒</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;3.再加强各方面工作监管，以防疏漏</p>
         </div>
       </div>
       <!-- 事故 结束 -->
@@ -124,6 +143,29 @@
           <ins class="sgtag_qingwei"><span>事故级别</span></ins>
           <h6># 客服微信被举报</h6>
           <p>● 官方客服微信号，被人举报，解锁时发现实名手机号已被注销；</p>
+        </div>
+      </div>
+      <!-- 事故 结束 -->
+    </div>
+
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2021.11.23（周二）</div>
+    <div class="tagbox">
+      <!-- 事故 开始 -->
+      <div class="tags_shigu">
+        <div class="tags_cont">
+          <ins class="sgtag_yiban"><span>事故级别</span></ins>
+          <h6># 用户在线活跃数据统计异常</h6>
+          <p>● 服务端优化后台数据统计导致</p>
+          <p>&nbsp;&nbsp;○ 影响范围：影响时间范围内新老用户权重异常（11.23之前老用户活跃度正常，11.23号之后新老用户随机）</p>
+          <p>&nbsp;&nbsp;○ 影响时间：11月23日 ~ 12月03日</p>
+          <p><strong>● 优化方案</strong></p>
+          <p>&nbsp;&nbsp;1、问题修复方案：修复统计异常代码</p>
+          <p>&nbsp;&nbsp;2、改进措施：</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>A：技术组</strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①技术端上线公共区域代码需相关人员复核</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②后台类的数据优化需确认好是否影响前端功能</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>B：产运组</strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加强对平台核心数据的监控，有异常及时上报并分析</p>
         </div>
       </div>
       <!-- 事故 结束 -->
