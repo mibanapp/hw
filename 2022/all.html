@@ -47,6 +47,35 @@
 
   <div class="n_note_cont">
 
+    <div class="rq_title">2022.01.16（周日）</div>
+    <div class="tagbox">
+      <!-- 事故 开始 -->
+      <div class="tags_shigu">
+        <div class="tags_cont">
+          <ins class="sgtag_zhongda"><span>事故级别</span></ins>
+          <h6># 上线数据收集的相关代码，导致服务器宕机</h6>
+          <p>● 责任人：嬴政</p>          
+          <p>● 影响时间：18:55 ~ 21:30 共计155分钟</p>
+          <p>● 事故原因：</p>
+          <p>&nbsp;&nbsp;○ 为新版本准备，收集线上用户视频数据，其中1台web服务器上线收集数据相关代码；</p>
+          <p><strong>&nbsp;&nbsp;○ 时间点：18:55 ~ 19:10（15分钟）</strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 共2台服务器，其中1台宕机，导致50%用户功能异常；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 处理方案：下掉一台服务器；</p>
+          <p><strong>&nbsp;&nbsp;○ 时间点：19:10 ~ 19:40（30分钟）</strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ web服务器压力过大，导致连接数据库连接不够，部分用户业务受影响；</p>
+          <p><strong>&nbsp;&nbsp;○ 时间点：20:00 ~ 20:55（55分钟）</strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ web服务器压力过大，导致连接数据库连接不够，部分用户业务受影响；</p>
+          <p><strong>&nbsp;&nbsp;○ 时间点：20:55 ~ 21:30（35分钟）</strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 新增机器hosts没有绑定域名，导致34%的用户登录异常；</p>
+          <p>● 优化方案：</p>
+          <p>&nbsp;&nbsp;○ 线上代码改动，必须注意，经过测试后，才能上线；</p>
+          <p>&nbsp;&nbsp;○ 上线报警必须重视，需要及时解决；</p>
+          <p>&nbsp;&nbsp;○ 新增机器要详细测试，细节要多注意；</p>
+        </div>
+      </div>
+      <!-- 事故 结束 -->
+    </div>
+
     <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2022.01.15（周六）</div>
     <div class="tagbox">
       <!-- 投放 开始 -->
@@ -58,6 +87,25 @@
       <!-- 投放 结束 -->
     </div>
 
+    <div class="rq_title">2022.01.14（周五）</div>
+    <div class="tagbox">
+      <!-- 事故 开始 -->
+      <div class="tags_shigu">
+        <div class="tags_cont">
+          <ins class="sgtag_yiban"><span>事故级别</span></ins>
+          <h6># 第三支付（合利宝）那边的商户号异常；</h6>
+          <p>● 责任人：合利宝</p>          
+          <p>● 影响时间：01月14日</p>
+          <p>● 事故原因：</p>
+          <p>&nbsp;&nbsp;○ 给的一批商户号，没有换id只是切换了银联网联通道，导致被风控后依旧是无效；</p>
+          <p>&nbsp;&nbsp;○ 新提供的商户号认证流程没帮我们走完；</p>
+          <p>● 优化方案：</p>
+          <p>&nbsp;&nbsp;○ 做验证做测试；</p>
+        </div>
+      </div>
+      <!-- 事故 结束 -->
+    </div>
+
     <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2022.01.14（周五）</div>
     <div class="tagbox">
       <!-- 投放 开始 -->
@@ -67,6 +115,26 @@
         </div>
       </div>
       <!-- 投放 结束 -->
+    </div>
+
+    <div class="rq_title">2022.01.12（周三）</div>
+    <div class="tagbox">
+      <!-- 事故 开始 -->
+      <div class="tags_shigu">
+        <div class="tags_cont">
+          <ins class="sgtag_zhongda"><span>事故级别</span></ins>
+          <h6># 邀请人后台慢查询重复点击 导致 mysql CPU达到100%</h6>
+          <p>● 责任人：嬴政</p>          
+          <p>● 影响时间：21:10:00 ~ 21:39:56</p>
+          <p>● 事故原因：</p>
+          <p>&nbsp;&nbsp;○ 邀请人后台慢查询，点击过于频繁查询导致数据库崩溃；</p>
+          <p>● 优化方案：</p>
+          <p>&nbsp;&nbsp;○ 优化数据库和代码；</p>
+          <p>&nbsp;&nbsp;○ 定期处理量级较大库表；</p>
+          <p>&nbsp;&nbsp;○ 线上问题都是大问题，要警惕，处理问题要根除；</p>
+        </div>
+      </div>
+      <!-- 事故 结束 -->
     </div>
 
     <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2022.01.11（周二）</div>
