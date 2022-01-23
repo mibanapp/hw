@@ -78,6 +78,80 @@
       <!-- 活动 结束 -->
     </div>
 
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2022.01.24（周一）</div>
+    <div class="tagbox">
+      <!-- 前端 开始 -->
+      <div class="tags_qianduan">
+        <div class="tags_cont">
+          <h6># V1.2.9版本</h6>
+          <p><strong>1、平台弹窗公告</strong></p>
+          <p>&nbsp;&nbsp;○ 可针对平台不同端入口发布弹窗公告；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 支持区分付费与非付费用户；</p>
+          <p><strong>2、IM页面顶部提示语可后台进行配置</strong></p>
+          <p>&nbsp;&nbsp;○ 文案控制60个中文字以内；</p>
+          <p><strong>3、真人认证页面，优化；</strong></p>
+          <p>&nbsp;&nbsp;○ 上传头像增加引导介绍弹窗页面；</p>
+          <p>&nbsp;&nbsp;○ 录制视频，优化成直接调用前置摄像头；</p>
+          <p><strong>4、女端-头像上传引导；</strong></p>
+          <p>&nbsp;&nbsp;○ 头像审核未通过或违规被删除后，引导再次上传头像，且有上传规范指导；</p>
+
+          <p><strong>5、金币活动-开宝箱，领取成功弹窗，素材更换；</strong></p>
+          <p>&nbsp;&nbsp;○ 弹窗中的宝箱图片不对，进行了更换；</p>
+          <p><strong>6、真人图标素材调整；</strong></p>
+          <p>&nbsp;&nbsp;○ 由空心更换为实心图标；</p>
+
+          <p><strong>7、视频坐等功能；</strong></p>
+          <p>&nbsp;&nbsp;○ 男端的【缘分】左滑右滑被替换为【坐等视频】；</p>
+
+          <p><strong>8、虚拟扣费体系重构，解决异常挂断导致的妹子收益问题及用户扣费问题；</strong></p>
+          <p>&nbsp;&nbsp;○ 重构了扣费体系；</p>
+
+          <p><strong>9、备注功能优化；</strong></p>
+          <p>&nbsp;&nbsp;○ 先清理一批好友关系，保留已经备注的，不清理关注粉丝数量；</p>
+          <p>&nbsp;&nbsp;○ 新逻辑客户端实现，备注才加好友；</p>
+          <p><strong>10、针对女端进行了常用语频繁使用的限制；</strong></p>
+          <p>&nbsp;&nbsp;○ 如果使用常用语的时间过短，如在5s内连续使用，前端会进行弹窗提示，且需要手动关闭弹窗；</p>
+          <p>&nbsp;&nbsp;○ 在当天使用常用发送的消息条数超过一定数量，会提示：频繁重复使用常用语会让回复率变低哦~</p>
+          <p><strong>11、入驻流程优化；</strong></p>
+          <p>&nbsp;&nbsp;○ 女端入驻流程 - 实名认证 界面，去掉 邀请ID 这一栏；</p>
+          <p><strong>12、黑名单APP检测，主要用于打击引流/黑灰产；</strong></p>
+          <p>&nbsp;&nbsp;○ 接入第三反欺诈系统，如被检测到有违规行为，比如使用脚本，外挂等，会被限制使用我们APP，前端会有弹窗进行提示；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ <strong>提示文案：</strong>系统检测到你手机中存在违规软件，被限制登录，详情请咨询客服  xxxxxxxx；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 未注册用户：会被限制注册；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 已注册用户：下次启动我们APP时会被踢出到登录界面；</p>
+          <p><strong>13、元宝兑换钻石界面增加二次确认弹窗；</strong></p>
+          <p>&nbsp;&nbsp;○ 元宝兑换钻石界面，增加描述，再增加二次确认；</p>
+          <p><strong>14、中奖系统；</strong></p>
+          <p>&nbsp;&nbsp;○ 增加幸运礼物中将系统，包括 飞屏、电视 显示；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 赠送幸运礼物有机会可以获得钻石奖励，中奖后会有飞屏/电视提示；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 提示文案：恭喜【xxx】送的【xxx】中了x倍大奖x次，获得了xx钻石；</p>
+          <p><strong>15、在线红包；</strong></p>
+          <p>&nbsp;&nbsp;○ 新增在线红包功能，只要在线等待倒计时完成即可领取红包奖励；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 奖励类型可支持：金币 / 钻石 / 元宝；</p>
+          <p><strong>16、鉴黄自动掐断视频并给提示；</strong></p>
+          <p>&nbsp;&nbsp;○ 当系统或人工检测视频违规，可对其进行画面屏蔽，但不中断双方通话；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 违规被处理人，会有弹窗进行提醒；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 对方：会屏蔽违规方的视频画面；</p>
+          <p><strong>17、女端在首页顶部TAB栏，增加密友页卡，位置放在榜单之前；</strong></p>
+          <p>&nbsp;&nbsp;○ 此处的密友列表与【消息】栏目的列表内容一致；</p>
+          <p><strong>18、今日缘分；</strong></p>
+          <p>&nbsp;&nbsp;○ 男端：与女端对应起来，在IM页顶部左上角，增加一个【今日缘分】；</p>
+          <p>&nbsp;&nbsp;○ 女端：IM页顶部左上角的【缘分推荐】功能下掉，替换成【今日缘分】 ；</p>
+          <p><strong>19、女端：去掉周星榜中的 神聊榜；</strong></p>
+          <p>&nbsp;&nbsp;○ 去掉 神聊榜、视频榜 页签，周星榜只保留 视频榜 的数据；</p>
+          <p><strong>20、赠送礼物后，给与文案提示；</strong></p>
+          <p>&nbsp;&nbsp;○ 每天第1次赠送礼物时，进行提示1次；</p>
+          <p>&nbsp;&nbsp;○ 赠送礼物时，双方都会触发提示，不区分男女端；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 提示文案：礼物可以增加感情，也请适度消费哦。</p>
+          <p><strong>21、IM-聊天页真人认证提示；</strong></p>
+          <p>&nbsp;&nbsp;○ 在IM页新增真人头像认证提示，显示5s会自动消失；</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 未通过真人头像认证提示：对方尚未通过真人头像认证，请谨慎交谈！</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;○ 已通过真人头像认证提示：对方已通过真人头像认证，敬请畅聊！</p>
+        </div>
+      </div>
+      <!-- 前端 结束 -->
+    </div>
+
     <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2022.01.20（周四）</div>
     <div class="tagbox">
       <!-- 投放 开始 -->
