@@ -111,16 +111,17 @@ body{font:15px/24px Arial,"microsoft yahei";color:#333;}
 	.n_note_cont .rq_title{ font-weight: bold; height: 36px; line-height: 36px; font-size: 20px; padding: 0px 0px 0px 0px; margin: 5px 0px -10px 0px; color: #b1b1b1; }
 	.n_note_cont .rq_title i{ margin: 0px 6px 0px -2px; background: #fff; }
 	.tags_cont{ padding: 4px 0px; position: relative; }
-	.tags_cont ins{ display: block; text-decoration:none; position: absolute; right: -24px; top: 2px; transform:rotate(35deg); font-size: 13px; padding: 2px 7px; border-radius: 4px; }
+	/*.tags_cont ins{ display: block; text-decoration:none; position: absolute; right: -24px; top: 2px; transform:rotate(35deg); font-size: 13px; padding: 2px 7px; border-radius: 4px; }*/
+	.tags_cont ins{ display: block; position: absolute; top: 35px; left: -40px; font-size: 12px; width: 21px; line-height: 12px; text-align: center; padding: 5px 1px; border-radius: 4px 0px 0px 4px; text-decoration:none; }
 	.tags_cont ins span{ display: none; }
-	.tags_cont ins.sgtag_qingwei{ color: #eca31f; border: 1px solid #eca31f; background: #fff8ea; }
-	.tags_cont ins.sgtag_qingwei:after{ content: "轻微事故"; }
-	.tags_cont ins.sgtag_yiban{ color: #cb3696; border: 1px solid #cb3696; background: #ffe9f7; }
-	.tags_cont ins.sgtag_yiban:after{ content: "一般事故"; }
-	.tags_cont ins.sgtag_zhongda{ color: #0014ff; border: 1px solid #0014ff; background: #ede5ff; }
-	.tags_cont ins.sgtag_zhongda:after{ content: "重大事故"; }
-	.tags_cont ins.sgtag_teda{ color: #f00; border: 1px solid #f00; background: #ffe5e5; }
-	.tags_cont ins.sgtag_teda:after{ content: "特大事故"; }
+	.tags_cont ins.sgtag_qingwei{ color: #eca31f; /*border: 1px solid #eca31f;*/ background: #fff0d2; }
+	.tags_cont ins.sgtag_qingwei:after{ content: "轻微"; }
+	.tags_cont ins.sgtag_yiban{ color: #cb3696; /*border: 1px solid #cb3696;*/ background: #ffe0f4; }
+	.tags_cont ins.sgtag_yiban:after{ content: "一般"; }
+	.tags_cont ins.sgtag_zhongda{ color: #0014ff; /*border: 1px solid #0014ff;*/ background: #e4d7ff; }
+	.tags_cont ins.sgtag_zhongda:after{ content: "重大"; }
+	.tags_cont ins.sgtag_teda{ color: #f00; /*border: 1px solid #f00;*/ background: #fed6d6; }
+	.tags_cont ins.sgtag_teda:after{ content: "特大"; }
 
 	.tagbox{ margin: 0px 5px 20px 40px; }
 
@@ -186,15 +187,16 @@ body{font:15px/24px Arial,"microsoft yahei";color:#333;}
 	.n_note_cont .rq_title{ font-weight: bold; height: 36px; line-height: 36px; font-size: 19px; padding: 0px 0px 0px 0px; margin: 5px 0px -10px 0px; color: #b1b1b1; }
 	.n_note_cont .rq_title i{ margin: 0px 5px 0px -1px; background: #fff; }
 	.tags_cont{ padding: 4px 0px; position: relative; }
-	.tags_cont ins{ display: block; text-decoration:none; position: absolute; right: -20px; top: -3px; transform:rotate(35deg); font-size: 12px; padding: 1px 6px; border-radius: 4px; line-height: 20px; }
+	/*.tags_cont ins{ display: block; text-decoration:none; position: absolute; right: -20px; top: -3px; transform:rotate(35deg); font-size: 12px; padding: 1px 6px; border-radius: 4px; line-height: 20px; }*/
+	.tags_cont ins{ display: block; position: absolute; top: 35px; left: -40px; font-size: 12px; width: 21px; line-height: 12px; text-align: center; padding: 5px 1px; border-radius: 4px 0px 0px 4px; text-decoration:none; }
 	.tags_cont ins span{ display: none; }
-	.tags_cont ins.sgtag_qingwei{ color: #eca31f; border: 1px solid #eca31f; background: #fff8ea; }
+	.tags_cont ins.sgtag_qingwei{ color: #eca31f; /*border: 1px solid #eca31f;*/ background: #fff0d2; }
 	.tags_cont ins.sgtag_qingwei:after{ content: "轻微"; }
-	.tags_cont ins.sgtag_yiban{ color: #cb3696; border: 1px solid #cb3696; background: #ffe9f7; }
+	.tags_cont ins.sgtag_yiban{ color: #cb3696; /*border: 1px solid #cb3696;*/ background: #ffe0f4; }
 	.tags_cont ins.sgtag_yiban:after{ content: "一般"; }
-	.tags_cont ins.sgtag_zhongda{ color: #0014ff; border: 1px solid #0014ff; background: #ede5ff; }
+	.tags_cont ins.sgtag_zhongda{ color: #0014ff; /*border: 1px solid #0014ff;*/ background: #e4d7ff; }
 	.tags_cont ins.sgtag_zhongda:after{ content: "重大"; }
-	.tags_cont ins.sgtag_teda{ color: #f00; border: 1px solid #f00; background: #ffe5e5; }
+	.tags_cont ins.sgtag_teda{ color: #f00; /*border: 1px solid #f00;*/ background: #fed6d6; }
 	.tags_cont ins.sgtag_teda:after{ content: "特大"; }
 
 	.tagbox{ margin: 0px 0px 20px 23px; }
