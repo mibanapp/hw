@@ -98,6 +98,14 @@ body{font:15px/24px Arial,"microsoft yahei";color:#333;}
 
 	.all_body{ width: 700px; padding: 82px 0px 20px 0px; margin: 0 auto; }
 
+	.n_note_left{ position: fixed; width: 80px; height: 100%; }
+	.n_note_left ul{ text-align: center; padding: 3px 0px 0px; }
+	.n_note_left ul li{ padding: 8px 8px 0px; }
+	.n_note_left ul li a{ line-height: 34px; background: #fafafa; color: #333; display: block; border: 1px solid #e2e2e2; border-radius: 4px; font-size: 15px; text-decoration:none; }
+	.n_note_left ul li a:hover{ background: #fff; }
+	.n_note_left ul li.cur a{ background: #555; color: #fff; border: 1px solid #555; }
+	.n_note_left ul li.cur a:hover{ background: #333; }
+
 	/*二维码*/
 	.bcqr_wrap{ width: 100%; position: fixed; right: 0; top: 0px; pointer-events: none; }
 	.bcqr_position_box{ position: relative; width: 800px; margin: 0 auto; }
@@ -105,7 +113,7 @@ body{font:15px/24px Arial,"microsoft yahei";color:#333;}
 	.bcqr_box #qrcode{ width: 120px; height: 120px; }
 	.bcqr_box .bcqr_text{ text-align: center; line-height: 20px; margin-top: 8px; font-size: 15px; }
 
-	.n_note_cont{ padding: 4px 0px 0px 0px; background: url(../img/zhouxian_left.png) repeat-y 0px 0px; background-size: 20px 20px; /*overflow: hidden;*/ }
+	.n_note_cont{ padding: 4px 0px 0px 85px; background: url(../img/zhouxian_left.png) repeat-y 85px 0px; background-size: 20px 20px; /*overflow: hidden;*/ width: calc(100% - 85px); }
 	.n_note_cont:after{ clear: both; content: ""; display: table; }
 	/*.n_note_cont .rq_title{ font-weight: bold; height: 30px; line-height: 30px; font-size: 18px; background: url(../img/zhouxian_jiedian.png) no-repeat 0px center; background-size: 20px 20px; padding: 0px 0px 0px 38px; margin: 5px 0px -10px 0px; }*/
 	.n_note_cont .rq_title{ font-weight: bold; height: 36px; line-height: 36px; font-size: 20px; padding: 0px 0px 0px 0px; margin: 5px 0px -10px 0px; color: #b1b1b1; }
@@ -176,12 +184,18 @@ body{font:15px/24px Arial,"microsoft yahei";color:#333;}
 	h1.pingtai_name a{ color: #777; text-decoration:none; }
 
 
-	.all_body{ width: calc(100% - 15px); padding: 74px 10px 10px 5px; }
+	.all_body{ width: calc(100% - 10px); padding: 74px 10px 10px 0px; }
+
+	.n_note_left{ position: fixed; width: 60px; height: 100%; /*background: #fbfbfb; border-right: 1px solid #e4e4e4;*/ }
+	.n_note_left ul{ text-align: center; padding: 3px 0px 0px; }
+	.n_note_left ul li{ padding: 6px 8px 0px; }
+	.n_note_left ul li a{ line-height: 28px; background: #fafafa; color: #333; display: block; border: 1px solid #e2e2e2; border-radius: 4px; font-size: 13px; text-decoration:none; }
+	.n_note_left ul li.cur a{ background: #555; color: #fff; border: 1px solid #555; }
 
 	/*二维码*/
 	.bcqr_wrap{ display: none; }
 
-	.n_note_cont{ padding: 4px 0px 0px 0px; background: url(../img/zhouxian_left.png) repeat-y 0px 0px; background-size: 20px 20px; /*overflow: hidden;*/ }
+	.n_note_cont{ padding: 4px 0px 0px 65px; background: url(../img/zhouxian_left.png) repeat-y 65px 0px; background-size: 20px 20px; /*overflow: hidden;*/ width: calc(100% - 65px); }
 	.n_note_cont:after{ clear: both; content: ""; display: table; }
 	/*.n_note_cont .rq_title{ font-weight: bold; height: 30px; line-height: 30px; font-size: 18px; background: url(../img/zhouxian_jiedian.png) no-repeat 0px center; background-size: 20px 20px; padding: 0px 0px 0px 23px; margin: 5px 0px -10px 0px; }*/
 	.n_note_cont .rq_title{ font-weight: bold; height: 36px; line-height: 36px; font-size: 19px; padding: 0px 0px 0px 0px; margin: 5px 0px -10px 0px; color: #b1b1b1; }

@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>2021年 · 投放 · 更新记录</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/css/public.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>(function(){var a=document.documentElement.clientWidth||document.body.clientWidth;if(a>460){a=460}else{if(a<320){a=320}}document.documentElement.style.fontSize=(a/26.5)*1+"px"})();</script>
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.lazyload-1.9.1.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.qrcode-1.0.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+      $("img.dplazy").lazyload({
+      	placeholder : "https://cdn.jsdelivr.net/gh/mibanapp/static/img/lazygray.png",
+      	effect: "fadeIn",
+      	threshold: 1500
+      });
+  });
+</script>
+</head>
+
+<body>
+
+<!-- 顶部导航 开始 -->
+<div class="hy_top_nav">
+  <ul>
+    <li><a href="/2021/all/"><span>全部</span></a></li>
+    <li><a href="/2021/qianduan/"><span>前端</span></a></li>
+    <li><a href="/2021/fuwuduan/"><span>服务端</span></a></li>
+    <li><a href="/2021/yunying/"><span>运营</span></a></li>
+    <li><a href="/2021/huodong/"><span>活动</span></a></li>
+    <li class="cur"><a href="/2021/toufang/"><span>投放</span></a></li>
+    <li><a href="/2021/shigu/"><span>事故</span></a></li>
+    <li><a href="/2021/qita/"><span>其他</span></a></li>
+  </ul>
+  <h1 class="pingtai_name"><a href="/">2021年 · 投放 · 更新记录</a></h1>
+</div>
+<!-- 顶部导航 结束 -->
+
+
+<div class="all_body">
+
+  <!-- 左侧月份 开始 -->
+  <div class="n_note_left">
+    <ul>
+      <li class="cur"><a href="/2021/toufang/">全部</a></li>
+      <li><a href="/2021/toufang/12.html">12月</a></li>
+    </ul>
+  </div>
+  <!-- 左侧月份 结束 -->
+
+  <div class="n_note_cont">
+
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2021.12.31（周五）</div>
+    <div class="tagbox">
+      <!-- 投放 开始 -->
+      <div class="tags_toufang">
+        <div class="tags_cont">
+          <p>头条开始掉量，量级10万以下，持续4天。主要是头条审核改版，头部大量素材拒审，且难以过审；</p>
+        </div>
+      </div>
+      <!-- 投放 结束 -->
+    </div>
+
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2021.12.15（周三）</div>
+    <div class="tagbox">
+      <!-- 投放 开始 -->
+      <div class="tags_toufang">
+        <div class="tags_cont">
+          <p>数据回传时长由24小时调整为7天，回传给媒体更多的数据。成本得到优化，量级趋向稳定；</p>
+        </div>
+      </div>
+      <!-- 投放 结束 -->
+    </div>
+
+  </div>
+
+
+  <!-- 二维码 -->
+  <div class="bcqr_wrap">
+		<div class="bcqr_position_box">
+			<div class="bcqr_box">
+				<div id="qrcode"></div>
+				<script>jQuery('#qrcode').qrcode({render: "canvas", width: 120, height: 120, foreground: "#000", background: "#fff", text: "https://time.miban.ml/2021/toufang/"});</script>
+				<div class="bcqr_text">
+					扫一扫<br>可用手机查看
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>

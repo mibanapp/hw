@@ -1,0 +1,94 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>2022年 · 其他 · 更新记录</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/css/public.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>(function(){var a=document.documentElement.clientWidth||document.body.clientWidth;if(a>460){a=460}else{if(a<320){a=320}}document.documentElement.style.fontSize=(a/26.5)*1+"px"})();</script>
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.lazyload-1.9.1.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.qrcode-1.0.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+      $("img.dplazy").lazyload({
+      	placeholder : "https://cdn.jsdelivr.net/gh/mibanapp/static/img/lazygray.png",
+      	effect: "fadeIn",
+      	threshold: 1500
+      });
+  });
+</script>
+</head>
+
+<body>
+
+<!-- 顶部导航 开始 -->
+<div class="hy_top_nav">
+  <ul>
+    <li><a href="/2022/all/"><span>全部</span></a></li>
+    <li><a href="/2022/qianduan/"><span>前端</span></a></li>
+    <li><a href="/2022/fuwuduan/"><span>服务端</span></a></li>
+    <li><a href="/2022/yunying/"><span>运营</span></a></li>
+    <li><a href="/2022/huodong/"><span>活动</span></a></li>
+    <li><a href="/2022/toufang/"><span>投放</span></a></li>
+    <li><a href="/2022/shigu/"><span>事故</span></a></li>
+    <li class="cur"><a href="/2022/qita/"><span>其他</span></a></li>
+  </ul>
+  <h1 class="pingtai_name"><a href="/">2022年 · 其他 · 更新记录</a></h1>
+</div>
+<!-- 顶部导航 结束 -->
+
+
+<div class="all_body">
+
+  <!-- 左侧月份 开始 -->
+  <div class="n_note_left">
+    <ul>
+      <li class="cur"><a href="/2022/qita/">全部</a></li>
+      <li><a href="/2022/qita/1.html">1月</a></li>
+    </ul>
+  </div>
+  <!-- 左侧月份 结束 -->
+
+  <div class="n_note_cont">
+
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2022.01.01（周六）</div>
+    <div class="tagbox">
+      <!-- 其他 开始 -->
+      <div class="tags_qita">
+        <div class="tags_cont">          
+          <h6># 支付预警-警报</h6>
+          <p>● 支付预警警报条件进行优化</p>
+          <p>&nbsp;&nbsp;○ 修复BUG并优化事故报警逻辑及商户号自动切换方案；</p>
+          <p>&nbsp;&nbsp;○ 核心模块功能上线需经过自测和测试人员测试双重把关，不能凭感觉上线；</p>
+          <p>&nbsp;&nbsp;○ 优化商户号切换效率，把每次自动切换过程中影响的时间和笔数降到最低点；</p>
+          <p>&nbsp;&nbsp;○ 调整后上线时间：00:29:10；</p>
+        </div>
+      </div>
+      <!-- 其他 结束 -->  
+    </div>
+
+  </div>
+
+
+  <!-- 二维码 -->
+  <div class="bcqr_wrap">
+		<div class="bcqr_position_box">
+			<div class="bcqr_box">
+				<div id="qrcode"></div>
+				<script>jQuery('#qrcode').qrcode({render: "canvas", width: 120, height: 120, foreground: "#000", background: "#fff", text: "https://time.miban.ml/2022/qita/"});</script>
+				<div class="bcqr_text">
+					扫一扫<br>可用手机查看
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>

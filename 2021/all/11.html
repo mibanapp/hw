@@ -1,0 +1,103 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<title>2021年 · 11月 · 时光轴</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/css/public.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>(function(){var a=document.documentElement.clientWidth||document.body.clientWidth;if(a>460){a=460}else{if(a<320){a=320}}document.documentElement.style.fontSize=(a/26.5)*1+"px"})();</script>
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.lazyload-1.9.1.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mibanapp/static/js/jquery/jquery.qrcode-1.0.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+      $("img.dplazy").lazyload({
+      	placeholder : "https://cdn.jsdelivr.net/gh/mibanapp/static/img/lazygray.png",
+      	effect: "fadeIn",
+      	threshold: 1200
+      });
+  });
+</script>
+</head>
+
+<body>
+
+<!-- 顶部导航 开始 -->
+<div class="hy_top_nav">
+  <ul>
+    <li class="cur"><a href="/2021/all/"><span>全部</span></a></li>
+    <li><a href="/2021/qianduan/"><span>前端</span></a></li>
+    <li><a href="/2021/fuwuduan/"><span>服务端</span></a></li>
+    <li><a href="/2021/yunying/"><span>运营</span></a></li>
+    <li><a href="/2021/huodong/"><span>活动</span></a></li>
+    <li><a href="/2021/toufang/"><span>投放</span></a></li>
+    <li><a href="/2021/shigu/"><span>事故</span></a></li>
+    <li><a href="/2021/qita/"><span>其他</span></a></li>
+  </ul>
+  <h1 class="pingtai_name"><a href="/">2021年 · 11月 · 时光轴</a></h1>
+</div>
+<!-- 顶部导航 结束 -->
+
+
+<div class="all_body">
+
+  <!-- 左侧月份 开始 -->
+  <div class="n_note_left">
+    <ul>
+      <li><a href="/2021/all/">全部</a></li>
+      <li><a href="/2021/all/12.html">12月</a></li>
+      <li class="cur"><a href="/2021/all/11.html">11月</a></li>
+    </ul>
+  </div>
+  <!-- 左侧月份 结束 -->
+
+  <div class="n_note_cont">
+
+    <div class="rq_title"><i class="fa fa-calendar fa-fw"></i>2021.11.23（周二）</div>
+    <div class="tagbox">
+      <!-- 事故 开始 -->
+      <div class="tags_shigu">
+        <div class="tags_cont">
+          <ins class="sgtag_yiban"><span>事故级别</span></ins>
+          <h6># 用户在线活跃数据统计异常</h6>
+          <p>● 责任人：嫦娥</p>
+          <p>● 服务端优化后台数据统计导致</p>
+          <p>&nbsp;&nbsp;○ 影响范围：影响时间范围内新老用户权重异常（11.23之前老用户活跃度正常，11.23号之后新老用户随机）</p>
+          <p>&nbsp;&nbsp;○ 影响时间：11月23日 ~ 12月03日</p>
+          <p><strong>● 优化方案</strong></p>
+          <p>&nbsp;&nbsp;1、问题修复方案：修复统计异常代码</p>
+          <p>&nbsp;&nbsp;2、改进措施：</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>A：技术组</strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①技术端上线公共区域代码需相关人员复核</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②后台类的数据优化需确认好是否影响前端功能</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>B：产运组</strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加强对平台核心数据的监控，有异常及时上报并分析</p>
+        </div>
+      </div>
+      <!-- 事故 结束 -->
+    </div>
+
+  </div>
+
+
+  <!-- 二维码 -->
+  <div class="bcqr_wrap">
+		<div class="bcqr_position_box">
+			<div class="bcqr_box">
+				<div id="qrcode"></div>
+				<script>jQuery('#qrcode').qrcode({render: "canvas", width: 120, height: 120, foreground: "#000", background: "#fff", text: "https://time.miban.ml/2021/all/11.html"});</script>
+				<div class="bcqr_text">
+					扫一扫<br>可用手机查看
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
